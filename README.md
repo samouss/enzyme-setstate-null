@@ -12,7 +12,7 @@ yarn && yarn test
 
 ### Test case
 
-See `Counter.js` & `Counter.test.js`:
+See [`Counter.js`](https://github.com/samouss/enzyme-setstate-null/blob/master/src/Counter.js) & [`Counter.test.js`](https://github.com/samouss/enzyme-setstate-null/blob/master/src/Counter.test.js):
 
 ```jsx
 it('expect to increment until 3', () => {
