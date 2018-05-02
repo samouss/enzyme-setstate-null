@@ -1,6 +1,6 @@
 ## Enzyme `setState` return `null`
 
-This is a reproduction for the issue #XXX.
+This is a reproduction for the issue [#1643](https://github.com/airbnb/enzyme/issues/1643).
 
 When returning `null` from `setState` Enzyme still trigger a render.
 
