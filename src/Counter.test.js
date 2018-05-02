@@ -29,7 +29,7 @@ it('expect to increment until 3', () => {
 
   lastArgs(children).increment(); // 3 > 2 => true prevent update
 
-  // Return null from setState expect to prevent the rendering
-  // but Enzyme still render even when setState return null.
+  // This assertion expect to pass but Enzyme render
+  // even when we return `null` from setState.
   expect(children).toHaveBeenCalledTimes(4);
 });

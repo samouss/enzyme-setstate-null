@@ -9,6 +9,7 @@ class Counter extends Component {
     this.setState(({ count }) => {
       console.log(count);
       if (count > 2) {
+        console.log('Prevent update...');
         return null;
       }
 
